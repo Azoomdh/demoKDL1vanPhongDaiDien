@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>CreateProduct</title>
+</head>
+<body>
+    <form th:action="@{/khachHang/generateFakeKhachHangView/sendForm}" method="post" enctype="multipart/form-data">
+
+
+        <div>
+            <input type="number" name="soLuongPhaiTao" placeholder="soLuongPhaiTao"  /> 
+        </div>
+
+        <div>
+            <input type="submit" value="tạo khach hang"/>
+        </div>
+    </form>
+</body>
+</html>
